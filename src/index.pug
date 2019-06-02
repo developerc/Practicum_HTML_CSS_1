@@ -1,0 +1,217 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        title webpack-starter
+        link(rel='stylesheet', href='sass/styles.scss')
+        link(rel='stylesheet', href='sass/stylesheet.css')
+
+        //определяем тип браузера: FireFox это или нет
+    //script.
+    //    console.log(navigator.userAgent);
+    //    var str = navigator.userAgent;
+    //    var firefoxBrowser = false;
+    //    if(str.indexOf("Firefox") > -1) {
+    //        firefoxBrowser = true;
+    //        document.documentElement.style.setProperty('--$firefoxBrowser', red);
+    //    }
+    //    console.log('firefoxBrowser = ' + firefoxBrowser);
+
+    body
+        //h1 привет!
+        //p привет web-starter
+        div(class='flex-container')
+            div
+                div(class='left-wrap1')
+                    div(class='big-circle')
+                        div(class='big-circle__over')
+                        div(class='big-circle__inside')
+                    div(class='namehere') name here
+                    div(class='surname') SURNAME
+                    div(class='profession') GRAPHIC DESIGNER
+                div(class='left-wrap2')
+                    div(class='space-div-1' style='--height: 148px;')
+                    div(class='icon-header')
+                        div(class='icon-header__circle-parent')
+                            div(class='icon-header__circle-min')
+                            div(class='icon-header__circle-min-solid')
+                                div(class='icon-header__css-human')
+                            div(class='icon-header__blue-header')
+                                p PROFILE
+                        div(class='icon-header__blueline')
+                    div(class='text-profile')
+                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu
+                            span(class='boldfont') pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                    div(class='space-div-1' style='--height: 76px;')
+                    div(class='icon-header')
+                        div(class='icon-header__circle-parent')
+                            div(class='icon-header__circle-min')
+                            div(class='icon-header__circle-min-solid')
+                                svg(class='phone'  height='210' width='500' transform='matrix(0.45,0,0,0.45,80.13472,80.3733)'
+                                viewBox="0 0 578.106 578.106" )
+                                    g
+                                        path(
+                                        style="fill:white"
+                                        d="m 577.83,456.128 c 1.225,9.385 -1.635,17.545 -8.568,24.48 l -81.396,80.781 c -3.672,4.08 -8.465,7.551 -14.381,10.404 -5.916,2.857 -11.729,4.693 -17.439,5.508 -0.408,0 -1.635,0.105 -3.676,0.309 -2.037,0.203 -4.689,0.307 -7.953,0.307 -7.754,0 -20.301,-1.326 -37.641,-3.979 -17.34,-2.653 -38.555,-9.182 -63.645,-19.584 C 318.035,543.95 289.578,528.342 257.755,507.536 225.932,486.731 192.067,458.169 156.163,421.856 127.603,393.704 103.939,366.776 85.171,341.073 66.403,315.368 51.307,291.602 39.883,269.774 28.458,247.946 19.89,228.158 14.178,210.41 8.466,192.662 4.59,177.362 2.55,164.51 0.51,151.658 -0.306,141.56 0.102,134.216 0.51,126.872 0.714,122.792 0.714,121.976 1.53,116.264 3.366,110.45 6.222,104.534 9.078,98.618 12.546,93.824 16.626,90.152 L 98.022,8.756 c 5.712,-5.712 12.24,-8.568 19.584,-8.568 5.304,0 9.996,1.53 14.076,4.59 4.08,3.06 7.548,6.834 10.404,11.322 l 65.484,124.236 c 3.672,6.528 4.692,13.668 3.06,21.42 -1.632,7.752 -5.1,14.28 -10.404,19.584 l -29.988,29.988 c -0.816,0.816 -1.53,2.142 -2.142,3.978 -0.612,1.836 -0.918,3.366 -0.918,4.59 1.632,8.568 5.304,18.36 11.016,29.376 4.896,9.792 12.444,21.726 22.644,35.802 10.2,14.076 24.684,30.293 43.452,48.653 18.36,18.77 34.68,33.354 48.96,43.76 14.277,10.4 26.215,18.053 35.803,22.949 9.588,4.896 16.932,7.854 22.031,8.871 l 7.648,1.531 c 0.816,0 2.145,-0.307 3.979,-0.918 1.836,-0.613 3.162,-1.326 3.979,-2.143 l 34.883,-35.496 c 7.348,-6.527 15.912,-9.791 25.705,-9.791 6.938,0 12.443,1.223 16.523,3.672 l 0.611,0 118.115,69.768 c 8.571,5.308 13.67,12.038 15.303,20.198 z"
+                                        )
+                                //img(src=require("./src/images/phone-receiver.svg"))
+
+                                //img(src="./src/images/phone-receiver.svg")
+                                //img(src='images/phone5.svg' alt='phone')
+                                //div(class='icon-header__css-human')
+                            div(class='icon-header__blue-header')
+                                p contact
+                        div(class='icon-header__blueline')
+                    div.contactdata
+                        p address
+                        p Main Street, City
+                    div.contactdata
+                        p E-MAIL
+                        p contact@domain.com
+                    div.contactdata
+                        p PHONE
+                        p 555-555-555
+                    div.contactdata
+                        p WEBSITE
+                        p www.yourweb.com
+                    div(class='space-div-1' style='--height: 100px;')
+                    div(class='icon-header')
+                        div(class='icon-header__circle-parent')
+                            div(class='icon-header__circle-min')
+                            div(class='icon-header__circle-min-solid')
+                                div(class='icon-header__css-lamp')
+                            div(class='icon-header__blue-header')
+                                p skills
+                        div(class='icon-header__blueline')
+                    div.skillsitem
+                        p creative
+                        - var n = 0;
+                        div
+                            while (n<9)
+                                span.dot-blue
+                                - n++
+                            - n = 0;
+                            while (n < 3)
+                                span.dot-gray
+                                - n++
+                    div.skillsitem
+                        p teamwork
+                        - var n = 0;
+                        div
+                            while (n < 11)
+                                span.dot-blue
+                                - n++
+                            - n = 0;
+                            span.dot-gray
+                    div.skillsitem
+                        p innovate
+                        - var n = 0;
+                        div
+                            while (n < 6)
+                                span.dot-blue
+                                - n++
+                            - n = 0;
+                            while (n < 6)
+                                span.dot-gray
+                                - n++
+                    div.skillsitem
+                        p communication
+                        - var n = 0;
+                        div
+                            while (n < 11)
+                                span.dot-blue
+                                - n++
+                            - n = 0;
+                                span.dot-gray
+
+            div(class='right-half')
+                div(class='right-wrap1')
+                    div(class='space-div-1' style='--height: 150px;')
+                    div(class='icon-header')
+                        div(class='icon-header__circle-parent')
+                            div(class='icon-header__circle-min')
+                            div(class='icon-header__circle-min-solid')
+                                svg(height='210' width='500' class='svg-star')
+                                    polygon(points='47.619,4.761 19.047,94.285 90.476,37.142 4.761,37.142 76.190,94.285' style='fill:white;stroke:white;stroke-width:5;fill-rule:nonzero;')
+                            div(class='icon-header__blue-header' style="margin-left: 180px;letter-spacing: -2px;-moz-margin-start: 157px;-moz-transform: scaleX(0.9);")
+                                p education
+                        div(class='icon-header__blueline')
+                    div(class='right-wrap2')
+                        div(class='space-div-1' style='--height: 30px;')
+                        - var n = 0;
+                        while (n<4)
+                            div.master-degree
+                                div.master-degree__line
+                                    div.master-degree__dot-black
+                                    div.master-degree__headerdegree
+                                        p master degree
+                                    div.master-degree__datedegree
+                                        p // Feb 2011 - Jun 2014
+                                div.master-degree__universityname university name
+                                div.master-degree__degreetext Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                            - n++
+                    div(class='space-div-1' style='--height: 0px;')
+                    div(class='icon-header')
+                        div(class='icon-header__circle-parent')
+                            div(class='icon-header__circle-min')
+                            div(class='icon-header__circle-min-solid')
+                                div(class='icon-header__css-schoolbag')
+                            div(class='icon-header__blue-header'  style="margin-left: 155px;transform: scaleX(0.88);letter-spacing: 1px;margin-top: 25px;-moz-margin-start: 133px;-moz-transform: scaleX(0.83);")
+                                p EXPERIENCE
+                        div(class='icon-header__blueline')
+                    div(class='right-wrap2')
+                        div(class='space-div-1' style='--height: 59px;')
+                        - var n = 0;
+                            while (n < 3)
+                                div.master-degree
+                                    div.master-degree__line
+                                        div.master-degree__dot-black
+                                        div(class='master-degree__headerdegree-blue' style="-moz-margin-start: -25px;-moz-transform: scaleX(0.88);")
+                                            p company name
+                                        div.master-degree__datedegree
+                                            p // Feb 2011 - Jun 2014
+                                    div(class='master-degree__universityname' style="transform: scaleX(0.85);margin-left: -89px;-moz-margin-start: -70px;-moz-transform: scaleX(0.87);") YOUR JOB HERE
+                                    div.master-degree__degreetext Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+                                - n++
+                    div(class='right-wrap3')
+                        div(class='icon-header')
+                            div(class='icon-header__circle-parent')
+                                div(class='icon-header__circle-min')
+                                div(class='icon-header__circle-min-solid')
+                                    div(class='icon-header__css-comp')
+                                div(class='icon-header__blue-header' style="letter-spacing: 1px; transform: scaleX(0.9);-moz-margin-start: 145px;-moz-transform: scaleX(0.85);")
+                                    p software
+                            div(class='icon-header__blueline')
+                div(class='software-container' style='margin-top:48px')
+                    div(class='software__left')
+                        p(class='software__header') photoshop
+                        div(class='software__degree-percent-container')
+                            div(class='software__degree-percent-left' style='width: 90%')
+                            div(class='software__degree-percent-right' style='margin-left: 90%')
+                    div(class='software__right')
+                        p(class='software__header') dreamweaver
+                        div(class='software__degree-percent-container')
+                            div(class='software__degree-percent-left' style='width: 80%')
+                            div(class='software__degree-percent-right' style='margin-left: 80%')
+                div(class='software-container' style='margin-top:225px')
+                    div(class='software__left')
+                        p(class='software__header') illustrator
+                        div(class='software__degree-percent-container')
+                            div(class='software__degree-percent-left' style='width: 70%')
+                            div(class='software__degree-percent-right' style='margin-left: 70%')
+                    div(class='software__right')
+                        p(class='software__header') after effects
+                        div(class='software__degree-percent-container')
+                            div(class='software__degree-percent-left' style='width: 61%')
+                            div(class='software__degree-percent-right' style='margin-left: 61%')
+                div(class='software-container' style='margin-top:400px')
+                    div(class='software__left')
+                        p(class='software__header') indesign
+                        div(class='software__degree-percent-container')
+                            div(class='software__degree-percent-left' style='width: 55%')
+                            div(class='software__degree-percent-right' style='margin-left: 55%')
+                    div(class='software__right')
+                        p(class='software__header') html&css3
+                        div(class='software__degree-percent-container')
+                            div(class='software__degree-percent-left' style='width: 90%')
+                            div(class='software__degree-percent-right' style='margin-left: 90%')
